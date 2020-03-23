@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cd ~/courses/ic210
+git pull
+cd ~/courses/ic211
+git pull
+cd ~/courses/ic221
+git pull
+
+
