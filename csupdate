@@ -1,0 +1,16 @@
+#!/bin/bash
+
+cd ~/courses
+cd ic210
+git add *
+git commit -a -m "Auto commit script ic210"
+git push
+cd ~/courses/ic211
+git add *
+git commit -a -m "Auto commit script ic211"
+git push
+cd ~/courses/ic221
+git add *
+git commit -a -m "Auto commit script ic221"
+
+git push
